@@ -1,0 +1,699 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ************************************************HEADER CSS STARTS HERE
+****************************************************** */
+
+.header {
+    background-color: #2b2219;
+    padding-bottom: 1px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container {
+    margin: 0 320px;
+    padding: 0 15px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+}
+
+.header-links {
+    display: inline-block;
+    text-align: left;
+}
+
+.header-link2 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 18%;
+}
+
+.header-links ul {
+    padding: 30px 0px 30px 0px;
+}
+
+.header-link2 ul {
+    padding: 30px 0px 30px 0px;
+}
+
+.header-links ul a {
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #2b2219;
+}
+
+.header-links ul a:hover {
+    border: 1px solid #c89e38;
+    color: #c89e38;
+    transition: 0.5s;
+}
+
+.header-link2 ul a {
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #2b2219;
+}
+
+.header-link2 ul a:hover {
+    border: 1px solid #c89e38;
+    color: #c89e38;
+    transition: 0.5s;
+}
+
+.header-link2 ul,
+.header-link2 li {
+    display: inline-block;
+}
+
+.header-links ul,
+.header-links li {
+    display: inline-block;
+}
+
+.header-links a,
+.header-link2 a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* ************************************************HEADER CSS ENDS HERE
+****************************************************** */
+
+.note {
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    background-color: #2b22196e;
+    color: #fff;
+    border: 2px solid #d9af30;
+    font-size: 12px;
+}
+
+
+/* ************************************************BANNER CSS STARTS HERE
+****************************************************** */
+
+.banner img {
+    width: 100%;
+    position: relative;
+}
+
+.logo-img img {
+    position: absolute;
+    top: 16%;
+    left: 35%;
+}
+
+
+/* ************************************************BANNER CSS ENDS HERE
+****************************************************** */
+
+
+/* ************************************************PACKAGES CSS ENDS HERE
+****************************************************** */
+
+.packages .package-post {
+    padding: 20px;
+    display: inline-block;
+    width: 13%;
+    border: 2px solid #e8cc57;
+    background-color: #2b2219b5;
+}
+
+.main-container {
+    position: relative;
+    height: 165px;
+    width: 175px;
+}
+
+.the-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 3s ease;
+}
+
+.the-card:hover {
+    transform: rotateX(180deg);
+    transition: all 3s ease;
+}
+
+.the-card:hover .the-front {
+    transform: rotateX(180deg);
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.the-front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    color: cornflowerblue;
+}
+
+.the-front h2,
+.the-back h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 30%;
+    border: 3px solid #e8cc57;
+    background-color: #362411;
+    color: #fff;
+}
+
+.the-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    transform: rotateX(180deg);
+    text-align: center;
+    background-color: #685209d7;
+}
+
+.packages-box {
+    position: absolute;
+    bottom: -30%;
+    border-bottom: 2px solid aliceblue;
+    padding-bottom: 50px;
+}
+
+.the-front img {
+    width: 100%;
+}
+
+.nbr a {
+    padding: 0px;
+    border: 3px solid #e8cc57;
+    background-color: #362411;
+    color: #fff;
+}
+
+.btn a {
+    padding: 10px;
+    border: 3px solid #e8cc57;
+    background-color: #362411;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+.btn a:hover,
+.nbr a:hover,
+.the-back h2:hover {
+    color: #c89e38;
+}
+
+
+/* ************************************************PACKAGES CSS ENDS HERE
+****************************************************** */
+
+
+/* ************************************************PACKAGES details CSS ENDS HERE
+        ****************************************************** */
+
+.pkg-details {
+    margin-top: 20px;
+    height: 570px;
+}
+
+.pkg-det-box {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pkg-details .container .outer-box1 {
+    max-width: 27%;
+    border: 2px solid #c89e38;
+    background-color: #362411;
+    display: inline-block;
+    height: 505px;
+    margin: 0;
+}
+
+.pkg-details .container .outer-box2 {
+    max-width: 27%;
+    border: 2px solid #c89e38;
+    background-color: #362411;
+    display: inline-block;
+    height: 505px;
+    margin: 0;
+}
+
+.pkg-details .container .outer-box3 {
+    max-width: 27%;
+    border: 2px solid #c89e38;
+    background-color: #362411;
+    display: inline-block;
+    height: 505px;
+    margin: 0;
+}
+
+.outer-box1 {
+    left: 0;
+}
+
+.outer-box2 {
+    left: 34%;
+}
+
+.outer-box3 {
+    right: 0;
+}
+
+.outer-box1,
+.outer-box2,
+.outer-box3 {
+    padding: 20px 30px;
+    position: absolute;
+}
+
+.outer-box1 p,
+.outer-box2 p,
+.outer-box3 p {
+    margin-bottom: 20px;
+}
+
+.content1 {
+    background-color: #c89e38;
+    padding: 10px;
+}
+
+.outer-box1 .content1 img {
+    width: 100%;
+}
+
+.event,
+.event2 {
+    padding: 10px 5px;
+    background-color: #c89e38;
+}
+
+.event a,
+.event2 a {
+    color: black;
+}
+
+.event a:hover,
+.event2 a:hover {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.favourite {
+    padding: 10px;
+    background-color: #c89e38;
+}
+
+.short-pkg p {
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+
+/* ************************************************PACKAGES details CSS ENDS HERE
+        ****************************************************** */
+
+
+/* ************************************************SChedule CSS ENDS HERE
+        ****************************************************** */
+
+table {
+    border: 2px solid #e3f119;
+    background-color: #42342585;
+    width: 100%;
+    font-size: 22px;
+    padding: 20px;
+}
+
+caption {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #dbba49;
+}
+
+th {
+    background-color: #c8ff0075;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    color: #2b2219;
+}
+
+.empty {
+    background-color: #00ffea70;
+    border: 2px solid #e3f119;
+}
+
+.flight {
+    background-color: #00ff1581;
+    border: 2px solid #e3f119;
+}
+
+.estimat {
+    background-color: #00b7ff79;
+    border: 3px solid #7fffaa;
+}
+
+.air-line {
+    background-color: #7fffaa6b;
+    border: 3px solid #00b7ff;
+}
+
+.origin {
+    background-color: #c3ff7f77;
+    border: 3px solid #ffcc7f;
+}
+
+.time {
+    background-color: #ffcc7f73;
+    border: 3px solid #c3ff7f;
+}
+
+.status {
+    background-color: #83ff7f85;
+    border: 3px solid #cd19f1;
+}
+
+.time2 {
+    background-color: #ff7fea86;
+    border: 3px solid #19f1bb;
+}
+
+.time-table-heading {
+    text-align: center;
+    font-size: 18px;
+    color: #2f9dc6;
+    background-color: #f4d3d386;
+    padding: 10px;
+}
+
+.time-table {
+    padding: 30px;
+    background-color: #2b2219ab;
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+th:hover {
+    color: #d4ab25cc;
+    transition: 0.5s;
+}
+
+td:hover {
+    background-color: rgba(95, 158, 160, 0.767);
+    color: white;
+}
+
+tr:hover {
+    background-color: #867223d7;
+}
+
+tr:hover td {
+    border: 2px solid #d4ab25dc;
+}
+
+
+/* ************************************************SChedule CSS ENDS HERE
+        ****************************************************** */
+
+
+/* ***************************************************Contact Us CSS STARTS */
+
+.contact-form h2 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #dbba49;
+}
+
+.form-box {
+    text-align: center;
+}
+
+.contact-form .main-container {
+    position: relative;
+    height: 850px;
+    width: 100%;
+}
+
+.contact-form .the-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 4s ease;
+}
+
+.contact-form .the-card:hover {
+    transform: rotateX(180deg);
+    transition: all 4s ease;
+}
+
+.contact-form .the-card:hover .the-front {
+    transform: rotateX(180deg);
+    opacity: 0;
+    transition: all 4s ease;
+}
+
+.contact-form .the-front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #2b2219ab;
+    color: cornflowerblue;
+}
+
+.contact-form .the-front h2 {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    color: #dbba49;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+
+.contact-form .the-back h2 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #dbba49;
+    border-radius: 10px;
+}
+
+.contact-form .the-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #2b2219ab;
+    transform: rotateX(180deg);
+    color: chartreuse;
+}
+
+.contact-form {
+    padding: 30px;
+    height: fit-content;
+    background-color: #847c5cd1;
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background-color: #2b2219ab;
+    font-size: 25px;
+    width: 100%;
+    padding-top: 10px;
+    padding: 30px;
+    text-align: left;
+    border: 2px solid #d9af30;
+}
+
+.h {
+    color: #29b4bb;
+    text-align: center;
+}
+
+.div {
+    display: inline-block;
+    padding: 10px;
+}
+
+.input {
+    font-size: 25px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 47%;
+    background-color: #bfa00b;
+    border: 2px solid #bfa00b;
+    border-radius: 5px;
+}
+
+.input:focus {
+    background-color: #2b2219b7;
+}
+
+input {
+    color: #ffffff;
+}
+
+input:focus {
+    background-color: #bfa10bb0;
+}
+
+input::placeholder {
+    color: #362411f7;
+    opacity: 1;
+}
+
+.submit {
+    background-color: #2b2219b7;
+    color: #bfa10bb0;
+    font-size: 25px;
+}
+
+.footer {
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.span {
+    color: black;
+}
+
+.h {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.submit-btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #2b2219b7;
+    color: #bfa10bb0;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #f3e172;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #bfa10bb0;
+    color: #2b2219b7;
+    border: 1px solid #f3e172;
+}
+
+textarea {
+    font-size: 25px;
+    padding: 10px;
+    width: 97%;
+    height: 30px;
+    background-color: #bfa00b;
+    border: 2px solid #bfa00b;
+    border-radius: 5px;
+}
+
+
+/* ***************************************************Contact Us CSSENDS */
+
+
+/* ************************************************FOOTER CSS ENDS HERE
+        ****************************************************** */
+
+.footer {
+    background-color: #2b2219;
+    padding: 20px;
+    height: 595px;
+    color: #fff;
+}
+
+.footer h2 {
+    padding: 10px;
+    border-bottom: 2px solid #c89e38;
+}
+
+.footer a {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2b2219;
+    display: block;
+}
+
+.footer a:hover {
+    color: #e8cc57;
+    border: 1px solid #c89e38;
+    transition: 0.5s;
+}
+
+.footer .box1,
+.footer .box2,
+.footer .box3,
+.footer .box4 {
+    width: 21%;
+    display: inline-block;
+    padding: 20px;
+    height: 100%;
+}
+
+.box2 h2,
+.box3 h2 {
+    margin-bottom: 35px;
+}
+
+.box4 h2 {
+    margin-bottom: 128px;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.nested-list li {
+    display: inline-block;
+}
+
+
+/* ************************************************FOOTER CSS ENDS HERE
+        ****************************************************** */
